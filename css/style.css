@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background: #040404;
+    position: relative;
+    height: 100vh;
+}
+
+div {
+    height: 65vh;
+}
+
+h1 {
+    margin-top: 10vh;
+    color: #fff;
+}
+
+div p {
+    height: 60vh;
+}
+
+div p img {
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    height: 4vw;
+    padding: 8px 33px;
+    background: #c900009b;
+    color: #ffffff;
+    transition: .3s;
+    border: 2px solid #c900009b;
+    border-radius: 50px;
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 10vh;
+}
+
+.btn:hover {
+    color: #c900009b;
+    background: #ffffff;
+}
